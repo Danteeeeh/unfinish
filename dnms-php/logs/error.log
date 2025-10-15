@@ -1,0 +1,726 @@
+[12-Oct-2025 07:47:46 Asia/Manila] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\id-login-admin\dnms-php\config\environment.php on line 23
+[12-Oct-2025 07:47:46 Asia/Manila] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\id-login-admin\dnms-php\config\environment.php on line 24
+[12-Oct-2025 07:47:46 Asia/Manila] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\id-login-admin\dnms-php\config\environment.php on line 25
+[12-Oct-2025 08:10:30 Asia/Manila] PHP Warning:  require_once(C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user/../../../../config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user\dashboard.php on line 31
+[12-Oct-2025 08:10:30 Asia/Manila] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user/../../../../config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user\dashboard.php:31
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user\dashboard.php on line 31
+[12-Oct-2025 19:31:15 Asia/Manila] DNMS Dashboard Error: DNMS database tables not found. Please run the DNMS database setup script.
+[12-Oct-2025 19:31:31 Asia/Manila] DNMS Dashboard Error: DNMS database tables not found. Please run the DNMS database setup script.
+[12-Oct-2025 19:37:11 Asia/Manila] DNMS Dashboard Error: DNMS database tables not found. Please run the DNMS database setup script.
+[12-Oct-2025 19:41:29 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 2
+[12-Oct-2025 19:41:29 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 2
+[12-Oct-2025 19:41:29 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../includes/sidebar.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 6
+[12-Oct-2025 19:41:29 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../includes/sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 6
+[12-Oct-2025 19:41:29 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function displayFlashMessage() in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php:21
+Stack trace:
+#0 C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user\dashboard.php(59): include()
+#1 C:\xampp\htdocs\id-login-admin\dnms-php\controllers\user\dashboard.php(203): DashboardController->index()
+#2 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 21
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 2
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 2
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 33
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 33
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 151
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 151
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 225
+[12-Oct-2025 19:43:12 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard/../../../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 225
+[12-Oct-2025 19:54:39 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal/../views/meal/log.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php on line 37
+[12-Oct-2025 19:54:39 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal/../views/meal/log.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php on line 37
+[12-Oct-2025 19:54:42 Asia/Manila] PHP Warning:  include(C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal/../views/meal/log.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php on line 37
+[12-Oct-2025 19:54:42 Asia/Manila] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal/../views/meal/log.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php on line 37
+[12-Oct-2025 20:01:07 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function displayFlashMessage() in C:\xampp\htdocs\id-login-admin\dnms-php\includes\header.php:957
+Stack trace:
+#0 C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\log.php(2): include()
+#1 C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php(37): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\log.php(122): MealLogController->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\includes\header.php on line 957
+[12-Oct-2025 20:02:05 Asia/Manila] PHP Fatal error:  Cannot redeclare setFlash() (previously declared in C:\xampp\htdocs\id-login-admin\dnms-php\config\environment.php:68) in C:\xampp\htdocs\id-login-admin\dnms-php\includes\auth_functions.php on line 81
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "daily_protein" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 74
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "daily_protein" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 77
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "daily_protein" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 79
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "water_glasses" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 86
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "water_glasses" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 89
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "water_glasses" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 91
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "exercise_minutes" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 98
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "exercise_minutes" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 101
+[12-Oct-2025 20:09:09 Asia/Manila] PHP Warning:  Undefined array key "exercise_minutes" in C:\xampp\htdocs\id-login-admin\dnms-php\views\dashboard\index.php on line 103
+[12-Oct-2025 21:53:09 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:53:10 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:53:11 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:53:12 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:53:12 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:47 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:48 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:49 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:50 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:50 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:58 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:57:59 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:58:00 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:58:01 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 21:58:01 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:09:14 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:09:15 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:09:16 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:09:17 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:09:17 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:20:36 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:20:38 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:20:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:20:40 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:20:40 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:23:48 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:23:50 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:23:51 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:23:52 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:23:52 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:27:18 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:27:19 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:27:20 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:27:21 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:27:21 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:32:22 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:32:23 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:32:24 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:32:25 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:32:25 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:00 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:01 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:02 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:03 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:03 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:16 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:17 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:18 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:19 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:39:19 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:42:20 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:42:21 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:42:22 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:42:23 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:42:23 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:20 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:21 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:22 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:23 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:23 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:26 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:27 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:28 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:29 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:29 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:37 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:38 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:40 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:44:40 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:52:18 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:52:19 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:52:20 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:52:21 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:52:21 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:56:45 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:56:46 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:56:47 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:56:48 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:56:48 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:57:08 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:57:09 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:57:10 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:57:11 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 22:57:11 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:05:53 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:05:54 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:05:55 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:05:56 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:05:56 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:10:52 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:10:53 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:10:54 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:10:55 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:10:55 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:06 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:07 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:08 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:09 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:09 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:14 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:15 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:16 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:17 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[12-Oct-2025 23:11:17 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 04:48:37 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 04:48:38 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 04:48:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 04:48:40 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 04:48:40 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 06:53:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 06:53:40 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 06:53:41 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 06:53:42 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 06:53:42 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:13:10 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:13:11 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:13:12 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:13:13 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:13:13 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:46:41 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:46:42 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:46:43 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:46:44 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 10:46:44 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:27:55 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:27:56 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:27:57 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:27:58 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:27:58 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:29:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:29:40 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:29:41 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:29:42 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:29:42 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:31:32 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:31:33 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:31:34 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:31:35 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:31:35 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:19 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:20 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:21 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:22 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:22 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:36 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:37 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:38 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:39 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:34:39 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:35:25 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:35:26 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:35:27 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:35:28 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:35:28 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:59:26 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:59:27 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:59:28 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:59:29 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[13-Oct-2025 23:59:29 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:00:05 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:00:06 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:00:07 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:00:08 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:00:08 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:01:16 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:01:17 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:01:18 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:01:19 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:01:19 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:06:48 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:06:49 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:06:50 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:06:51 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:06:51 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:15:14 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:15:15 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:15:16 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:15:17 Asia/Manila] DNMS Database Connection Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:15:17 Asia/Manila] DNMS Dashboard Controller Error: Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[14-Oct-2025 00:19:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:19:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:19:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:20:01 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:24:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:24:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:24:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:25:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:25:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:25:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:25:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:25:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:26:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 00:30:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:17:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:17:59 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:44:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:45:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:45:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:53:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:54:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:54:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:54:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:54:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:54:51 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:55:06 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:55:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:55:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:55:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 02:55:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:00:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:03:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:21 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:06:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:12:48 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:14:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:14:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:14:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:18:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:18:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:19:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:21:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:22:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:29:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:37:57 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:38:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:40:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:43:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:43:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:45:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:46:02 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:46:06 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:46:09 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:48:23 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:48:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:48:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:48:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:48:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:50:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:50:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:50:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:50:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:51:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:53:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:53:17 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:56:05 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:56:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:56:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 03:57:01 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:00:59 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:02:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:02:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:02:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:03:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:08:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:26 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:09:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:12:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:16:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:17:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:17:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:19:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:30:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:32:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:39:10 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:39:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:42:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:42:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:42:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:43:39 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:43:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:45:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:46:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:54:04 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:54:06 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:54:09 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:57:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 04:57:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:03:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:03:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:03:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:03:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:03:47 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:05:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:05:30 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:05:30 Asia/Manila] PHP Fatal error:  Cannot redeclare showMealHistory() (previously declared in C:\xampp\htdocs\id-login-admin\dnms-php\controllers\meal\history.php:61) in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 744
+[14-Oct-2025 05:06:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:06:41 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:06:41 Asia/Manila] PHP Parse error:  Unclosed '{' on line 63 in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 851
+[14-Oct-2025 05:07:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:07:50 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:07:50 Asia/Manila] PHP Parse error:  Unclosed '{' on line 63 in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 853
+[14-Oct-2025 05:11:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:11:03 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:11:03 Asia/Manila] PHP Parse error:  Unclosed '{' on line 63 in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 853
+[14-Oct-2025 05:16:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:16:07 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:21:39 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:21:39 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:22:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:23:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:23:31 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[14-Oct-2025 05:25:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:16 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:17 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:21 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:25:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:23 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:39 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:47 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:27:59 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:02 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:06 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:48 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:28:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:29:04 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:29:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:29:24 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:29:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:09 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:45 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:30:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:44 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:45 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:45 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:45 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:33:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:16 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:18 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:34:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:30 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:40:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:01 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:34 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:42 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:41:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:42:14 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:44:57 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:44:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:13 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:14 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:16 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:19 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:20 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:46:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:48:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:48:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:48:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:48:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:49:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:49:01 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:49:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:49:09 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:49:10 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:57:46 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:57:47 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:57:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:57:51 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 05:57:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:00:20 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:00:51 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:00:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:01:51 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:05:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:05:52 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:05:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:05:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:05:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:06:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:14:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:14:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:14:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:14:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:14:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:15:28 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:16:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:16:03 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:18:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:18:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:18:41 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:18:43 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:18:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:23:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:23:18 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:23:21 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:23:22 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:38:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:38:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 06:39:02 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 18:11:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 18:12:05 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 18:12:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 18:20:07 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 18:39:57 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 19:07:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:06:21 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:08:08 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:09:23 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:13:27 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:13:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:15:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:15:56 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:17:25 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:19:15 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:19:19 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:26:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:26:59 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:29:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:29:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:30:10 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:33:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:38:28 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:38:35 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:38:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:41:26 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:41:28 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:42:16 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:42:36 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:42:37 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:44:53 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:44:54 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:44:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:44:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:45:29 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:45:33 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:48:48 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:48:49 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:48:55 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:48:58 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:49:00 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:49:01 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:49:02 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:49:50 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:51:31 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:51:32 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:51:38 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:51:39 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:51:40 Asia/Manila] DNMS Database Connection Established Successfully
+[14-Oct-2025 23:55:15 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:03:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:04:39 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:05:31 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:05:34 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:05:36 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:13:27 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:13:30 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:13:33 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:15:55 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:16:54 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:23:26 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:23:29 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:23:53 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:24:06 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:24:36 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:24:37 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:24:39 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:24:41 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:27:21 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:30:26 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:30:29 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:39:00 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:39:01 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:39:02 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:39:03 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:39:04 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:52:08 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 00:54:51 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:23:22 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:23:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function isLoggedIn() in C:\xampp\htdocs\id-login-admin\dnms-php\includes\auth_functions.php:12
+Stack trace:
+#0 C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php(576): getCurrentUser()
+#1 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\includes\auth_functions.php on line 12
+[15-Oct-2025 02:25:01 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:25:01 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:25:01 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:25:22 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:25:22 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:25:22 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:25:36 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:25:36 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:25:36 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:50:43 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:50:43 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:50:43 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:50:51 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:50:51 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:50:51 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 02:55:59 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:57:39 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:57:47 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:57:47 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php:579
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 579
+[15-Oct-2025 02:58:41 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 02:58:41 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php:579
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 579
+[15-Oct-2025 03:00:22 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:00:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php:579
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 579
+[15-Oct-2025 03:04:09 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:04:09 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php:573
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\id-login-admin\dnms-php\views\meal\history.php on line 573
+[15-Oct-2025 03:05:19 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:05:19 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:05:19 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:06:06 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:06:06 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:06:06 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:06:08 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:06:25 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:06:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:06:56 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:07:25 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:07:30 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:07:30 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:07:30 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:10:05 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:05 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:10:05 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:10:05 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:31 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:31 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:10:31 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:10:34 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:35 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:35 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:35 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:35 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:10:35 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:13:12 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:14:46 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:14:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:14:52 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:14:52 Asia/Manila] Meal History Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.meal_time' in 'order clause'
+[15-Oct-2025 03:30:21 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:33:47 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:33:49 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:34:10 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:42:23 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:43:10 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 03:43:49 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:06:58 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:07:08 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:09:19 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:13:01 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:13:03 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:13:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:13:53 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:24:01 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:34:10 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:38:29 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:51:21 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:56:55 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 05:57:02 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:04:43 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:04:45 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:04:46 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:00 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:01 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:37 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:39 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:40 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:06:47 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:14:47 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:16:43 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:16:46 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:16:58 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:21:31 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:21:39 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:24:20 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:26:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:32:04 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:32:14 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:42:49 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:42:51 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:42:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:18 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:27 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:33 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:36 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:42 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:43 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:46 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:47 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:52 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:45:58 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 06:46:06 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 07:57:58 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 07:58:11 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 08:30:37 Asia/Manila] DNMS Database Connection Established Successfully
+[15-Oct-2025 08:30:57 Asia/Manila] DNMS Database Connection Established Successfully
